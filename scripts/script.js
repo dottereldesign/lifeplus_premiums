@@ -231,8 +231,9 @@ form.addEventListener("submit", function (event) {
     }
   }
   // mileage conversion
-  document.getElementById("tt__quantity").setAttribute("value", result);
-  console.log(result);
+
+  document.getElementById("tt__quantity").setAttribute("value", result.pop(1));
+  console.log();
 });
 
 // function mileageconversionFunction() {
