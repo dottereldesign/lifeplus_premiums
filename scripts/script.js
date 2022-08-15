@@ -9,3 +9,8 @@ function lessthanFunction() {
     .setAttribute("value", "TRAVEL DISTANCE ( LESS THAN 15 KMS )");
   document.getElementById("td__quantity").setAttribute("value", "1");
 }
+
+function morethanFunction() {
+  div = document.getElementById("mileageconversion");
+  div.style.display = "block";
+}
