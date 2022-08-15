@@ -1,0 +1,33 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 3rem;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  background-color: #96362d;
+  height: 55px;
+  padding: 0em 3em 0em 3em;
+}
+
+.header__logo {
+  width: 74.19px;
+  height: 45px;
+}
+
+img {
+  display: block;
+}
+
+/* Main */
+h1 {
+  font-size: 2.25rem;
+}
