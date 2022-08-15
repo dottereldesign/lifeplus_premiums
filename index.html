@@ -31,8 +31,8 @@
             <h2>2. Mileage Conversion</h2>
             <p>Please enter the total amount of km you travel.</p>
             <form id="form">
-                <input type="text" id="km" placeholder="0" required>
-                <input type="submit" value="Submit">
+                <input class="insert__field" type="text" id="km" placeholder="0" required>
+                <input class="submit" type="submit" value="Submit">
             </form>
         </div>
 
@@ -41,11 +41,11 @@
                 <div class="premium__tt--premium">
                     <h3>Travel Time</h3>
                     <p>Premium <span>*</span></p>
-                    <input type="text" id="tt__premium" name="fname" placeholder="Not Set"><br><br>
+                    <input type="text" id="tt__premium" readonly="readonly" name="fname" placeholder="Not Set"><br><br>
                 </div>
                 <div class="premium__tt--quantity">
                     <p>Quantity <span>*</span></p>
-                    <input type="text" id="tt__quantity" name="fname" value=""><br><br>
+                    <input type="text" id="tt__quantity" readonly="readonly" name="fname" value=""><br><br>
                 </div>
             </div>
 
@@ -54,19 +54,14 @@
                 <div class="premium__td--premium">
                     <h3>Travel Distance</h3>
                     <p>Premium <span>*</span></p>
-                    <input type="text" id="td__premium" name="fname" placeholder="Not Set"><br><br>
+                    <input type="text" id="td__premium" readonly="readonly" name="fname" placeholder="Not Set"><br><br>
                 </div>
                 <div class="premium__td--quantity">
                     <p>Quantity <span>*</span></p>
-                    <input type="text" id="td__quantity" name="fname" value=""><br><br>
+                    <input type="text" id="td__quantity" readonly="readonly" name="fname" value=""><br><br>
                 </div>
             </div>
         </div>
-
-        <!-- HCSTT23 - TRAVEL TIME MORE THAN 16 KMS -->
-        <!-- TRAVEL DISTANCE ( MORE THAN 16 KMS )-->
-
-
     </main>
     <script src="scripts/script.js"></script>
 </body>

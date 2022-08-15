@@ -146,3 +146,28 @@ select {
   height: 35px;
   padding-left: 5px;
 }
+
+.submit {
+  background-color: #00682a;
+  border: 1px solid #00682a;
+  color: white;
+  padding: 0.5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.submit:hover {
+  background-color: white;
+  color: #00682a;
+  border: 1px solid #00682a;
+}
+
+.insert__field {
+  font-size: 1rem;
+  padding: 0.5em;
+}
