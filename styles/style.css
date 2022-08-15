@@ -109,10 +109,10 @@ main > p {
   padding: 0.5em;
 }
 
-@media (max-width: 50rem) {
+@media (max-width: 25rem) {
   .premium__tt,
   .premium__td {
-    width: 300px;
+    width: 320px;
     background-color: rgb(243, 243, 243);
     padding: 0.5em;
   }
@@ -121,7 +121,7 @@ main > p {
 @media (max-width: 22rem) {
   .premium__tt,
   .premium__td {
-    max-width: 280px;
+    width: 300px;
     background-color: rgb(243, 243, 243);
     padding: 0.5em;
   }

@@ -230,13 +230,8 @@ form.addEventListener("submit", function (event) {
       break;
     }
   }
-  // mileage conversion
 
+  // mileage conversion
   document.getElementById("tt__quantity").setAttribute("value", result.pop(1));
   console.log();
 });
-
-// function mileageconversionFunction() {
-//   document.getElementById("field2").value =
-//     document.getElementById("field1").value;
-// }
