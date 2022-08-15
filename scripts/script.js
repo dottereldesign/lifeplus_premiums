@@ -35,7 +35,8 @@ form.addEventListener("submit", function (event) {
     .setAttribute("value", "TRAVEL DISTANCE ( MORE THAN 16 KMS )");
   document.getElementById("td__quantity").setAttribute("value", mileage);
 
-  console.log(mileage);
+  // mileage conversion
+  document.getElementById("tt__quantity").setAttribute("value", "");
 });
 
 // function mileageconversionFunction() {

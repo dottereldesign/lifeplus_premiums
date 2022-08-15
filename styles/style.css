@@ -5,10 +5,6 @@
   margin: 0;
 }
 
-body {
-  font-size: 3rem;
-}
-
 /* Header */
 header {
   display: flex;
@@ -28,6 +24,77 @@ img {
 }
 
 /* Main */
+main {
+  width: 1400px;
+  margin: 1em auto;
+}
+
 h1 {
   font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5em;
+}
+
+main > p {
+  margin-top: 1em;
+  font-size: 1rem;
+}
+
+.button {
+  background-color: #96362d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 80%;
+}
+
+/* Mileage Conversion */
+.mileageconversion {
+  display: none;
+}
+
+/* Add Premium */
+.premium {
+  display: flex;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.premium__tt,
+.premium__td {
+  width: 350px;
+  background-color: rgb(243, 243, 243);
+  padding: 0.5em;
+}
+
+.premium__tt span,
+.premium__td span {
+  color: red;
+}
+
+.premium p {
+  font-weight: 600;
+}
+
+/* Form Boxes */
+.premium input[type="text"],
+select {
+  width: 100%;
+  border-color: rgb(99, 136, 255);
+  border-width: 1px;
+  border-radius: 2px;
+  height: 35px;
+  padding-left: 5px;
 }
